@@ -84,21 +84,6 @@ int main() {
     }
     r++;
   }
-  
-  //Verificar que se guarden
-  /*for(int i=0;i<nL;i++){
-    cout<<arrL[i].getIdMaterial()<<endl;
-    arrL[i].muestraDatos();
-    cout<<endl;
-  }
-  for(int i=0;i<nD;i++){
-    arrD[i].muestraDatos();
-    cout<<endl;
-  }
-  for(int i=0;i<nS;i++){
-    arrS[i].muestraDatos();
-    cout<<endl;
-  }*/
 
   //Leer datos de archivo reserva
   while(infoRe>>dia>>mes>>anio>>idMat>>idCli){
